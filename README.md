@@ -1,3 +1,8 @@
+## Note
+This Project is a clone of the project in my-blog repository which was deployed in AWS for a year but free subscription has run out.
+I used MERN stack for the application
+I will update it and deploy it to a new platform soon.
+To view it locally, clone the repository and install MongoDb
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
