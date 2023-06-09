@@ -20,7 +20,7 @@ const ArticlePage= ()=>{
         }
         fetchData();
     },[name]);
-    if(!article){ 
+    if(!article ){ 
     return (
     <>
      <Whoops404/>
@@ -32,8 +32,13 @@ const ArticlePage= ()=>{
     return(
     <>
     <h1> {article.title} </h1>
-    <UpvotesSection articleName ={name} upvotes={articleInfo.upvotes}
-     setArticleInfo={setArticleInfo}/>
+    <UpvotesSection 
+        articleName ={name} 
+        upvotes={articleInfo.upvotes}
+        setArticleInfo={setArticleInfo}/>
+        <img className="img-box"
+        src={process.env.PUBLIC_URL + article.image}
+        />
     {article.content.map((paragraph,key)=>
     <p key={key}>{paragraph}</p>)}
     <CommentsList comments= {articleInfo.comments}/>

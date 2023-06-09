@@ -2,6 +2,7 @@ const articles = [
     {
         name:'imagine',
         title: 'The only way to Imagine',
+        image: '/portfolio/1/h.jpg',
         content: [
             `Imagine was you removal raising gravity. Unsatiable understood or expression dissimilar so sufficient. Its party every heard and event gay. Advice he indeed things adieus in number so uneasy. To many four fact in he fail. My hung it quit next do of. It fifteen charmed by private savings it mr. Favourable cultivated alteration entreaties yet met sympathize. Furniture forfeited sir objection put cordially continued sportsmen.
         Mr oh winding it enjoyed by between. The servants securing material goodness her. Saw principles themselves ten are possession. So endeavor to continue cheerful doubtful we to. Turned advice the set vanity why mutual. Reasonably if conviction on be unsatiable discretion apartments delightful. Are melancholy appearance stimulated occasional entreaties end. Shy ham had esteem happen active county. Winding morning am shyness evident to. Garrets because elderly new manners however one village she.
@@ -12,6 +13,7 @@ const articles = [
     {
         name:'particulars',
         title: 'Your particulars are important',
+        image: '/portfolio/1/css-portfolio.jpg',
         content: [
             `Particular unaffected projection sentiments no my. Music marry as at cause party worth weeks. Saw how marianne graceful dissuade new outlived prospect followed. Uneasy no settle whence nature narrow in afraid. At could merit by keeps child. While dried maids on he of linen in.
         Alteration literature to or an sympathize mr imprudence. Of is ferrars subject as enjoyed or tedious cottage. Procuring as in resembled by in agreeable. Next long no gave mr eyes. Admiration advantages no he celebrated so pianoforte unreserved. Not its herself forming charmed amiable. Him why feebly expect future now.    
@@ -27,6 +29,7 @@ const articles = [
     {
         name:'courage',
         title:'A random French text about Courage',
+        image: '/portfolio/1/e-commerce.png',
         content: [
             `Ans prairie non feu oui montent prelude. Taches admire parait oui tenait ecarta cet depuis pic. Stupide silence empeche si maladie la invites. Souffrance eclaireurs executeurs eu arriverent ca gourmettes ai. Uns decharnees grouillent convulsion peu rougeatres son ans assurances. Eue indulgence historique boulevards partageait lui imprudente.
 
