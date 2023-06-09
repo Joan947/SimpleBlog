@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,118 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#page-body{
+  padding:0 20%;
+}
+h1{
+  
+}
+p{
+  
+}
+/* navbar */
+nav{
+  border-bottom: 0.25rem solid black;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30vw;
+  margin: 1rem auto;
+}
+li{
+    list-style-type: none;
+   
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.15em;
+    color: black;
+    padding: 1rem 2rem;
+}
+.nav-item:hover{
+      color: white;
+    background-color: black;
+}
+
+/* article list style */
+.article-list{
+  display: flex;
+  flex-direction: column;
+}
+.article-list>.article-list-item{
+  border-bottom: 2px solid black;
+  padding-bottom: 1.2em;
+}
+.article-list-item{
+  text-decoration: none;
+  font-weight: 500;
+  color: black; 
+}
+.article-list-item:hover>h3{
+  color: rgb(61, 20, 128);
+}
+/* related articles */
+.related-articles{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+  margin-right: 1em;
+}
+.related-articles>a{
+margin-right: 1em;
+}
+.comment{
+  border-bottom: 2px solid black;
+}
+
+/* upvotes section */
+#upvotes-section{
+  display:flex;
+  align-items: center;
+
+}
+#upvotes-section>p{
+margin-left:1%;
+}
+#upvotes-section>button{
+  background-color: black;
+  color: white;
+  border-radius: 0.5em;
+  border: 1px solid black;
+  width: 8em;
+  height: 3em;
+}
+/* Comment form */
+#add-comment-form{
+    border-bottom: 2px solid black;
+}
+#add-comment-form>label{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 1em;
+  }
+input,textarea,textarea+button{
+  border: 2px solid black;
+  border-radius: 0.4em;
+  margin-bottom:1em;
+}
+input{
+  height:2em;
+}
+textarea{
+  height:10em;
+}
+#add-comment-form>label>button{
+  height:2.1em;
+  background-color: black;
+  color: white;
+}
+#add-comment-form>label>button:hover{
+  font-size: 1.0em;
 }
